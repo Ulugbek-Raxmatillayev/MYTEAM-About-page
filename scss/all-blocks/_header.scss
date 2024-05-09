@@ -1,0 +1,68 @@
+
+// Header Style Started
+.header {
+    display: $d-flex;
+    padding: $padding-y $padding-x;
+    background: $midnightGreen;
+    position: $p-fixed;
+    width: $w-100;
+    margin-top: $mt-2 - 5.5;
+    height: $h-100vh - 80;
+    border-bottom: 1px solid $raptureBlue;
+    z-index: $z-index-fixed;
+
+    .logo_box{
+        img{
+            margin-top: $mt-2 + 2;
+        }
+    }
+
+    .navbar {
+        display: $d-flex;
+        width: $w-200;
+        height: $h-100vh - 200;
+        align-items: $ac;
+
+        .list {
+            width: $w-100;
+            padding-left: $padding-x;
+            display: $d-flex;
+            justify-content: $j-space-around;
+
+            .list_item {
+                color: $white;
+                font-family: $ff-ss;
+                cursor: $pointer;
+                transition: $transition-05;
+
+                &:hover{
+                    color: $lightCoral;
+                }
+            }
+        }
+    }
+
+    .btn_box {
+        $p-relative: relative;
+        position: $p-relative;
+        display: $d-flex;
+        left: $padding-x + 700px;
+        margin-top: $mt-2;
+
+        .contact_us {
+            padding: $btn-padding-y $btn-padding-x;
+            border-radius: $btn-border-radius;
+            border: $btn-normal-border-color 1px solid;
+            background: $btn-normal-bg-color;
+            color: $btn-normal-color;
+            transition: $transition-05;
+
+            &:hover {
+                border: $btn-hover-border-color 1px solid;
+                background: $btn-hover-bg-color;
+                color: $btn-hover-color;
+            }
+        }
+    }
+}
+// Header Style Ended

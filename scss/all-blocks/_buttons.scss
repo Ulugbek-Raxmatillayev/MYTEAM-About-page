@@ -1,0 +1,35 @@
+.nm-btn{
+    border: 1px solid $btn-normal-border-color;
+    background: $transparent;
+    color: $btn-normal-color;
+
+    &:hover{
+        border: 1px solid $btn-hover-border-color;
+        background: $btn-hover-bg-color;
+        color: $btn-hover-color;
+    }
+}
+
+.secondary-btn{
+    border: 1px solid $secondary-btn-normal-border-color;
+    background: $transparent;
+    color: $secondary-btn-normal-color;
+
+    &:hover{
+        border: 1px solid $secondary-btn-hover-border-color;
+        background: $secondary-btn-hover-bg-color;
+        color: $secondary-btn-hover-color;
+    }
+}
+
+.dark-btn{
+    border: 1px solid $dark-btn-normal-border-color;
+    background: $transparent;
+    color: $dark-btn-normal-border-color;
+
+    &:hover{
+        border: 1px solid $dark-btn-hover-border-color;
+        background: $dark-btn-hover-border-color;
+        color: $dark-btn-hover-border-color;
+    }
+}

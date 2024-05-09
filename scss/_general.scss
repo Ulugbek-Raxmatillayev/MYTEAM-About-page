@@ -1,0 +1,38 @@
+body {
+    font-family: 'Livvic';
+
+
+    // General Styles
+    *,
+    *::before,
+    *::after {
+        margin: $m0;
+        padding: $p0;
+        box-sizing: $bxz;
+    }
+
+    ol,
+    ul {
+        list-style-type: $list-none;
+    }
+
+    img {
+        object-fit: $obj_cover;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: $m0;
+        padding: $p0;
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: $decoration_none;
+    }
+
+}

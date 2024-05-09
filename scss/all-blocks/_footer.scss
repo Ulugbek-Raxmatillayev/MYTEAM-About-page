@@ -1,0 +1,35 @@
+// Footer Style Started
+.footer_page {
+    width: $w-100;
+    height: $h-100vh - 70;
+    background: $darkGreen;
+    padding-top: $padding-y;
+    padding-left: $padding-x;
+    padding-right: $padding-x;
+    font-family: $ff-ss;
+    color: $raptureBlue;
+
+    .row {
+        display: $d-flex;
+
+        .col {
+            width: $w-100;
+
+            .list {
+                width: $w-100 - 50;
+                line-height: $line-height + 20;
+            }
+
+            .icons_programs {
+                margin-left: $mt-2 + 10;
+                padding-bottom: $padding-y + 35;
+
+                img {
+                    margin-left: $m0 + 10px;
+                }
+            }
+        }
+    }
+}
+
+// Footer Style Ended

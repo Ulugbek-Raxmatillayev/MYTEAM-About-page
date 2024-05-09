@@ -1,0 +1,89 @@
+.second_page {
+    width: $w-100;
+    height: $h-100vh + 50;
+    background: $deepJungleGreen;
+
+    .second_container {
+        margin-top: $mt-2 - 5;
+
+        .second_text_center {
+            h2 {
+                font-size: $nmH2TextSize;
+                color: $white;
+            }
+        }
+
+        .card_box {
+            margin-left: $mt-2 + 7;
+            margin-top: $mt-2 + 6;
+
+            .card {
+                width: $card-w;
+                height: $card-h;
+                overflow: $overflow-hidden;
+                background: $sacramentoStateGreen;
+                margin: $card-margin-y $card-margin-x;
+
+                .text_center {
+                    .img img {
+                        width: $card-oval-img-w;
+                        padding: $padding-y - 20 $p0;
+                    }
+
+                    .name {
+                        h3 {
+                            color: $raptureBlue;
+                        }
+
+                        i {
+                            color: $white;
+                        }
+                    }
+
+                    .descript1 {
+                        position: $p-relative;
+                        width: $card-w;
+                        height: $card-h;
+                        top: $mt-2 + 8;
+                        background: $darkGreen;
+                        z-index: 1;
+                        transition: $transition-05;
+
+                        .name {
+                            padding-top: $mt-2 + 5;
+
+                            h3 {
+                                padding-bottom: $mt-2 + 5;
+                            }
+
+                            p {
+                                color: $white;
+                            }
+                        }
+                    }
+
+                }
+
+                .icon_plus {
+                    text-align: $text_center;
+
+                    .icon {
+                        position: relative;
+                        width: $card-oval-img-w - 2;
+                        height: $card-oval-img-w - 2;
+                        top: $padding-y - 240;
+                        color: $lightCoral;
+                        z-index: $z-index1;
+                        cursor: $pointer;
+                    }
+
+                    .plus_x {
+                        transform: rotateZ(45deg);
+                        color: $raptureBlue;
+                        transition: $transition-05;
+                    }
+                }
+            }
+        }
+    }
+}

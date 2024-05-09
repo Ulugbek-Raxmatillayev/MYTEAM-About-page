@@ -1,0 +1,40 @@
+
+// Advertising Style Started 
+.advertising_page {
+    display: $d-flex;
+    width: $w-100;
+    height: $h-100vh - 70;
+    background: $lightCoral;
+    align-items: $ac;
+
+    .img-6 {
+        margin-top: $mt-2 + 5.55;
+    }
+
+    .title {
+        h2 {
+            padding-left: $padding-x;
+            padding-right: $padding-x + 150;
+            font-size: $nmH2TextSize - 5;
+        }
+    }
+
+    .btn {
+        button {
+            padding: $btn-padding-y $btn-padding-x;
+            border-radius: $btn-border-radius;
+            border: $dark-btn-normal-border-color 2px solid;
+            background: $dark-btn-normal-bg-color;
+            color: $dark-btn-normal-color;
+            transition: $transition-05;
+
+            &:hover {
+                border: $dark-btn-hover-border-color 2px solid;
+                background: $dark-btn-hover-bg-color;
+                color: $dark-btn-hover-color;
+            }
+        }
+    }
+}
+
+// Advertising Style Ended 

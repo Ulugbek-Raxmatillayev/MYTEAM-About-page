@@ -1,0 +1,36 @@
+.hero_page {
+    width: $w-100;
+    height: $h-100vh - 30;
+    margin-top: $h-100vh - 80;
+    background: $midnightGreen;
+
+    .img {
+        position: $p-relative;
+        margin-left: $m0 + 78rem;
+        top: $m0 + 15.5rem;
+    }
+
+    .hero_container {
+        margin-top: $mt-2 - 3;
+        display: flex;
+        h1 {
+            color: $white;
+            font-size: $smH1TextSize ;
+            width: 40%;
+        }
+        p{
+            line-height: $line-height + 20;
+            width: 50%;
+            padding: $padding-y  $p0;
+            color: $white;
+            &::before{
+                position: absolute;
+                content: '';
+                width: $m0 + 5rem;
+                height: $m0 + .2rem;
+                background: $lightCoral;
+                margin-top: $mt-2 - 1;
+            }
+        }
+    }
+}

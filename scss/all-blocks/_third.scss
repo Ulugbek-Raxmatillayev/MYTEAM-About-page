@@ -1,0 +1,17 @@
+.third_page{
+    width: $w-100;
+    height: $h-100vh - 30;
+    background: $sacramentoStateGreen;
+
+    .text_center{
+        margin-top: $mt-2 - 5;
+        h2{
+            font-size: $nmH2TextSize;
+            color: $white;
+        }
+    }
+    .companys{
+        margin-top: $mt-2 + 10;
+        margin-left: $m0 + 1rem;
+    }
+}

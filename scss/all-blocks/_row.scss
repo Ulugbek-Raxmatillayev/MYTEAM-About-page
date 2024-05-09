@@ -1,0 +1,7 @@
+.row{
+    display: $d-flex;
+
+    .col, .card{
+        width: $w-100;
+    }
+}
